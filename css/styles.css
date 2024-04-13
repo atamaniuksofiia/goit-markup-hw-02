@@ -1,4 +1,14 @@
-.body{
+a {
+    text-decoration: none;
+}
+ul, ol {
+list-style-type: none;
+}
+button {
+    cursor: pointer;
+}
+body{
     font-family: "Roboto", sans-serif;
- color: aqua;
+    color: #2e2f42;
+    background-color: #ffffff;
 }
