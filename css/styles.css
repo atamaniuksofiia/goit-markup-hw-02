@@ -1,4 +1,4 @@
-a {
+a:link{
     text-decoration: none;
 }
 ul, ol {
@@ -7,8 +7,69 @@ list-style-type: none;
 button {
     cursor: pointer;
 }
-body{
+body {
     font-family: "Roboto", sans-serif;
     color: #2e2f42;
     background-color: #ffffff;
+}
+/* HEADER*/
+
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text-logo {
+    color: #4d5ae5;
+}
+.page-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-menu {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* HERO */
+.main-text {
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+}
+.main-section {
+    width: 1440px;
+height: 600px;
+background: #2e2f42;
+}
+.main-button {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background-color: #4d5ae5;
+}
+.head-description {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.paragrapg-description {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
